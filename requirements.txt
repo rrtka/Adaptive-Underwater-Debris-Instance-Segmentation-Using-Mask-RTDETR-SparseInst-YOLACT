@@ -1,0 +1,24 @@
+# Requirements for Underwater Marine Debris Detection and Instance Segmentation
+# PyTorch and Torchvision
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific computing and image processing
+numpy>=1.24.0
+scipy>=1.10.0
+opencv-python>=4.7.0
+pillow>=9.5.0
+
+# Data analysis, visualization, and Excel logging
+pandas>=2.0.0
+openpyxl>=3.1.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Evaluation
+pycocotools>=2.0.6
+
+# VLM post-hoc analysis (Qwen2.5-VL)
+transformers>=4.38.0
+accelerate>=0.28.0
+qwen-vl-utils>=0.0.8
